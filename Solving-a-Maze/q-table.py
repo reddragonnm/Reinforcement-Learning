@@ -1,4 +1,4 @@
-from UnsupervisedML.ReinforcementLearning.MazeRunner.env import GameEnv
+from env import GameEnv
 import numpy as np
 
 env = GameEnv(type="q_table")
